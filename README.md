@@ -50,7 +50,7 @@ L.translate({foo: 'hello'}, {
 // hold onto 'yer butts
 L.translate({
     large: 'example', // 'object'
-    // match of/other or default to lots
+    // match of or little, else default to lots
     with: L._default('lots', 'of', 'little'), // 'lots'
     // when 'and' exists, return {'other': 0}
     things: L._when('and', {'other': 0}), // { other: 0 }
