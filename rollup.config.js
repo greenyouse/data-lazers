@@ -1,6 +1,5 @@
 import compiler from '@ampproject/rollup-plugin-closure-compiler';
 import resolve from 'rollup-plugin-node-resolve';
-// import { resolve } from 'path';
 
 // TODO: add CommonJS, ES, and UMD builds
 export default {
