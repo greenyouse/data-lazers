@@ -1,0 +1,36 @@
+{
+  "name": "data-lazers",
+  "version": "0.1.0",
+  "license": "ISC",
+  "description": "Easier data translations in JavaScript",
+  "repository": "github:greenyouse/data-lazers",
+  "keywords": [
+    "data", "translation", "transformation", "functional", "lazers"
+  ],
+  "main": "dist/data-lazers.js",
+  "files": [
+    "dist" 
+  ],
+  "dependencies": {
+    "fast-deep-equal": "^2.0.1"
+  },
+  "scripts": {
+    "build": "rollup -c -o dist/data-lazers.js",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch"
+  },
+  "devDependencies": {
+    "@ampproject/rollup-plugin-closure-compiler": "^0.4.3",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.4.2",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "google-closure-compiler": "^20180716.0.1",
+    "jest-cli": "^23.3.0",
+    "rollup": "^0.63.2",
+    "rollup-plugin-node-resolve": "^3.3.0"
+  }
+}
