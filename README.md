@@ -58,7 +58,7 @@ L.translate({
     fun: L._pipe('stuff', 'over', 'here', n => n + 1, n => n * 100), // 600
     // tagged template for pulling out key values and indexes
     look: L._format`it's a ${'cool'} string`, // it's a template string
-    // 
+    // logical or that returns the first match
     and: L._or('some', 'other', 'strings'), // other
     // didn't match
     pretty: 'neat eh?' //null
